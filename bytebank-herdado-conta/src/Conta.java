@@ -9,7 +9,7 @@ public abstract class Conta {
     
     public Conta(int agencia, int numero){
         Conta.total++;
-        //System.out.println("O total de contas Ã© " + Conta.total);
+        //System.out.println("O total de contas " + Conta.total);
         this.agencia = agencia;
         this.numero = numero;
         //this.saldo = 100;
