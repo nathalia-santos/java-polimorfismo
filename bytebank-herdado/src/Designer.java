@@ -1,4 +1,4 @@
-//Gerente e um Funcionario, Gerente herda da class Funcionario
+//Gerente eh um Funcionario, Gerente herda da class Funcionario
 
 public class Designer extends Funcionario {
 	

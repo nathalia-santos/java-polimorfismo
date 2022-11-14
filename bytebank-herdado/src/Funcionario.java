@@ -1,10 +1,13 @@
 
+
+//nao pode instanciar dessa classe, pq Ã© abstrata
 public abstract class Funcionario {
+	
 	private String nome;
 	private String cpf;
 	private double salario;
 	
-	//método sem corpo, não há implementação
+	//metodo sem corpo, nao hÃ¡ implementacao
 	public abstract double getBonificacao();
 	
 	public String getNome() {
@@ -27,5 +30,7 @@ public abstract class Funcionario {
 	}
 	
 	
+	
 
 }
+
